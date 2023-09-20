@@ -7,5 +7,19 @@ open_canvas()
 ch = load_image("character.png")
 gr = load_image("grass.png")
 
+def run_circle():
+    print("circle")
+    pass
 
-cloas_canvas()
+def run_rectangle():
+    print("rectangle")
+    pass
+
+while True:
+    run_circle()
+    run_rectangle()
+    break
+
+
+
+close_canvas()
