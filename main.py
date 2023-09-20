@@ -9,6 +9,12 @@ gr = load_image("grass.png")
 
 def run_circle():
     print("circle")
+
+    clear_canvas_now()
+    gr.draw_now(400,30)
+    ch.draw_now(400,90)
+    delay(1)
+
     pass
 
 def run_rectangle():
@@ -18,7 +24,7 @@ def run_rectangle():
 while True:
     run_circle()
     run_rectangle()
-    
+
 
 
 
