@@ -34,10 +34,17 @@ def run_rectangle():
     #     pass
 
 
-    #top line 
-    for x in range(750, 50 - 1, -10):
-        render_all(x,550)
-        pass
+    #right side up
+    for y in range(100,550+1,10):
+        render_all(30,y)
+
+
+
+
+    #top line
+    # for x in range(750, 50 - 1, -10):
+    #     render_all(x,550)
+    #     pass
 
     print("rectangle")
     pass
